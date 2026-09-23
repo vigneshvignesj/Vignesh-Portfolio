@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignesh-Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Lord Sycho</div>
+        <ul class="nav-links">
+            <li><a href="#home"> <i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="#about"> <i class="fa-solid fa-user"></i>About</a></li>
+            <li><a href="#skill"><i class="fa-sharp fa-solid fa-gears"></i>Skills</a></li>
+
+
+            <li class="dropdown">
+                <a href="#">Projects</a>
+                <ul class="dropdown-menu">
+                    <li><a href="Animation.html">Simple Animation</a></li>
+                    <li><a href="#">Doctor Appointment</a></li>
+                </ul>
+            </li>
+            <li><a href="#education"><i class="fa-solid fa-user-graduate"></i>Education</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-phone"></i>Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">&#9776</div>
+
+        <div class="theme-toggle" id="themetoggle">
+            <i class="fa-mosaic fa-solid fa-sun" id="sunicon"></i>
+            <i class="fa-mosaic fa-solid fa-moon" id="moonicon"></i>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="introduction">
+            <h1 class="intro">
+                HI,I'm <span id="typing"></span><br>
+
+                I develop websites just like you imagine
+            </h1>
+            <p class="into-about-me">
+                3rd Year BCA who turns ideas into a working product
+            </p>
+            <div class="btn">
+                <a href="Animation.html"><button type="button" class="btn btn-outline-primary">View
+                        Projects</button></a>
+                <a href=""><button type="button" class="btn btn-outline-secondary">Download Resume</button></a>
+                <a href=""><button type="button" class="btn btn-outline-success">Contact me</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- <hr> -->
+    <section class="about" id="about">
+        <div class="about-me">
+            <h1>About Me</h1>
+        </div>
+        <p class="content">
+            I'm a 3rd Year BCA student specialized in
+            <span id="designTyping"></span> and Ethical Hacking, I build websites such a way that it is Secure,
+            Reliable, Responsive and User friendly. And when it comes to backend i manage the user's data and
+            Encript the sensitive information. Overall i have a good Skills in web developing have a deep knowledge
+            about how browser and Client/Server Side Technologies work.
+        </p><br>
+        <p class="content">
+            I am learning MERN Stack Development where i am improving my skills on NODE JS and REACT and i am mainly
+            focused on deploying the software safe and secure so that the users data gets secured with multiple layers
+            of security, I deploy softwares in such a way that it adopts to different browsers quickly.
+        </p>
+
+    </section>
+
+    <section class="skill" id="skill">
+        <div class="skill-section">
+            <h2 id="skill-part1">Skills</h2>
+            <p id="skill-part2">I have learned programing languages like Java, Python, and C, building a strong
+                foundation in programming
+                and
+                problem-solving. <br><br>
+                I have learnt Web Development using HTML,CSS,JAVASCRIPT and PHP
+            </p>
+            <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                    aria-expanded="false" aria-controls="multiCollapseExample1">Programing Languages</a>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                    aria-controls="multiCollapseExample2">Web Development</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+                    aria-expanded="false" aria-controls="Other-skill">Other Skills</button>
+            </p>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+                            I have learned Java, Python, and C, building a strong foundation in programming and
+                            problem-solving. <br>
+                            Through Java, I have explored object-oriented programming and application development. <br>
+                            With Python, I have developed my understanding of scripting, logic, and writing efficient
+                            programs. <br>
+                            My first programing language was C, in which i strengthened my fundamentals in programming,
+                            memory management, and
+                            many more concepts.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+                            I have learnt how HTML Elements behave in browser and also desiging websites with CSS with a
+                            better UI/UX, In backend i am improving my skills more and more in NODE JS,PHP and
+                            JAVASCRIPT everyday by implementing projects. And i am learning how to build websites
+                            secured from scrath rather then providing security later.
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse  multi-collapse" id="Other-skill">
+
+                        <div class="card card-body">
+                            I have learnt UNIX/LINUX operating system where i leant about how systems work and how
+                            programs load in the operating systems. <br>
+                            In Data Structure i have learnt searching/sorting algoritms and maily hash functions where
+                            we encript the data and many more algorithms. <br>
+                            In DataBase i have learnt MYSQL and PLSQL where i learnt CURD operations and Exception
+                            handling concepts
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="project" id="project">
+
+        <div class="project-heading">
+            <h1>Projects</h1>
+            <p>What I've developed / developing</p>
+        </div>
+
+        <div class="project-container">
+            <div class="project-card">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <div class="project-info">
+
+                    <h2>Animations</h2>
+
+                    <p>
+                        A simple bouncing animation which I have built
+                        using HTML and CSS to understand animations,
+                        positioning and transitions.
+                    </p>
+
+                    <div class="project-tools">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+
+                    <a href="Animation.html" class="project-link">
+                        View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <div class="project-info">
+
+                    <div class="project-title-row">
+                        <h2>Doctor Appointment System</h2>
+                        <span class="status">Upcoming</span>
+                    </div>
+
+                    <p>
+                        A hospital appointment system where users can
+                        view available services and book appointments.
+                        The system includes normal and emergency
+                        appointment categories.
+                    </p>
+
+                    <div class="project-tools">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        Coming Soon
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="education" id="education">
+
+        <div class="education-heading">
+
+            <h1>Education</h1>
+
+            <p>
+                My academic journey
+            </p>
+
+        </div>
+
+
+        <div class="education-timeline">
+
+            <div class="education-item">
+
+                <div class="education-dot"></div>
+
+                <div class="education-card">
+
+                    <div class="education-top">
+
+                        <span class="education-year">
+                            2024 - 2027
+                        </span>
+
+                        <span class="current">
+                            Currently 3rd Year
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        Bachelor of Computer Application
+                    </h2>
+
+                    <h3>
+                        BCA
+                    </h3>
+
+                    <p>
+                        Sri Jagadguru Renukacharya College of Arts,
+                        Science and Commerce
+                    </p>
+
+                    <div class="education-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="education-item">
+
+                <div class="education-dot"></div>
+
+                <div class="education-card">
+
+                    <div class="education-top">
+
+                        <span class="education-year">
+                            2022 - 2024
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        Higher Secondary
+                    </h2>
+
+                    <h3>
+                        CEBA
+                    </h3>
+
+                    <p>
+                        Sri Jagadguru Renukacharya College of Arts,
+                        Science and Commerce
+                    </p>
+
+                    <div class="education-icon">
+                        <i class="fa-solid fa-school"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="education-item">
+
+                <div class="education-dot"></div>
+
+                <div class="education-card">
+
+                    <div class="education-top">
+
+                        <span class="education-year">
+                            2021 - 2022
+                        </span>
+
+                    </div>
+
+                    <h2>
+                        Senior Secondary
+                    </h2>
+
+                    <p>
+                        Sri LaL Bahadhur Shastri School
+                    </p>
+
+                    <div class="education-icon">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contaner">
+            <div class="contact-top">
+                <h1>Contact</h1>
+                <h2>Share your ideas with me</h2>
+            </div>
+            <div class="contact-content">
+                <div class="img-left">
+                    <h2 class="build-title">
+                        Together, let's build a website
+                    </h2>
+                    <img src="aizen.jpg" alt="" height="600" width="500">
+                </div>
+                <div class="contact-me">
+                    <p>Have a project in mind, Share your ideas with me, pay after the work is done</p>
+                    <form action="">
+                        <label for="">Name<br>
+                            <input type="text" placeholder="Your Name" required>
+                        </label>
+                        <label for="">E-Mail<br>
+                            <input type="email" placeholder="E-Mail" required>
+                        </label>
+                        <label for="">Message<br>
+                            <textarea name="Message" rows="5" cols="70"
+                                placeholder="Share your project idea with me "></textarea>
+                        </label>
+                        <button type="submit">Send message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>© 2026 <span>Vignesh</span>. Built with HTML, CSS & Bootstrap.</p>
+    </footer>
+    <!-- <i class="fa-mosaic fa-solid fa-bars"></i> -->
+    <script>
+        const toggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".nav-links");
+
+        toggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        })
+
+        const themetoggle = document.getElementById("themetoggle");
+        themetoggle.addEventListener("click", function () {
+            document.body.classList.toggle("dark-mode");
+
+        });
+
+        const words = ["Vignesh"];
+        let wordIndex = 0;
+        let charIndex = 0;
+        let deleting = false;
+
+        function typeEffect() {
+
+            const typing = document.getElementById("typing");
+            const word = words[wordIndex];
+
+            if (!deleting) {
+                // Add one character
+                typing.textContent = word.substring(0, charIndex + 1);
+                charIndex++;
+
+                // Finished typing
+                if (charIndex === word.length) {
+                    deleting = true;
+                    setTimeout(typeEffect, 1500);
+                    return;
+                }
+
+            } else {
+                // Remove one character
+                typing.textContent = word.substring(0, charIndex - 1);
+                charIndex--;
+
+                // Finished deleting
+                if (charIndex === 0) {
+                    deleting = false;
+                    wordIndex++;
+
+                    if (wordIndex === words.length) {
+                        wordIndex = 0;
+                    }
+                }
+            }
+
+            setTimeout(typeEffect, deleting ? 80 : 120);
+        }
+
+        typeEffect();
+
+
+        const designWords = ["UI/UX Designer", "Web Development"];
+
+        let designWordIndex = 0;
+        let designCharIndex = 0;
+        let designDeleting = false;
+
+        function designCode() {
+
+            const designTyping = document.getElementById("designTyping");
+            const word = designWords[designWordIndex];
+
+            if (!designDeleting) {
+
+                designTyping.textContent =
+                    word.substring(0, designCharIndex + 1);
+
+                designCharIndex++;
+
+                if (designCharIndex === word.length) {
+                    designDeleting = true;
+
+                    setTimeout(designCode, 5000);
+                    return;
+                }
+
+            } else {
+
+                designTyping.textContent =
+                    word.substring(0, designCharIndex - 1);
+
+                designCharIndex--;
+
+                if (designCharIndex === 0) {
+
+                    designDeleting = false;
+                    designWordIndex++;
+
+                    if (designWordIndex === designWords.length) {
+                        designWordIndex = 0;
+                    }
+                }
+            }
+
+            setTimeout(designCode, designDeleting ? 80 : 120);
+        }
+
+        designCode();
+    </script>
+</body>
+
+</html>
