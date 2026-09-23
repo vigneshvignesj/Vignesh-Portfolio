@@ -834,20 +834,6 @@ body.dark-mode #moonicon {
 
 }
 
-/* .contact{
-    background: var(--bg-color);
-    color: var(--text-color);
-    border: 2px solid rgba(255,255,255,1);
-    box-shadow: 0px 50px 0px;
-}
-.contaner{
-   border: 2px solid rgba(255,255,255,1);
-    box-shadow: 0px 50px 0px; 
-}
-.img-left{
-    border-radius: 20px;
-
-} */
 
 .contact {
     padding: 80px 5%;
@@ -863,11 +849,21 @@ body.dark-mode #moonicon {
 .contact-top h1 {
     font-size: 40px;
     margin-bottom: 10px;
+     background: linear-gradient(90deg, #7c3aed, #06b6d4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 900;
 }
 
 .contact-top h2 {
     font-size: 22px;
     font-weight: 400;
+     background: linear-gradient(90deg, #7c3aed, #06b6d4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 800;
 }
 
 
@@ -888,6 +884,13 @@ body.dark-mode #moonicon {
     text-align: center;
     margin: 0 0 10px;
     font-size: 28px;
+     background: linear-gradient(90deg, #7c3aed, #06b6d4);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+
 }
 
 .img-left {
@@ -913,6 +916,11 @@ body.dark-mode #moonicon {
 .contact-me p {
     font-size: 18px;
     margin-bottom: 25px;
+     background: linear-gradient(to left, #7c3aed, #06b6d4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
 }
 
 
